@@ -24,6 +24,66 @@ ul.error li {
   list-style: none;
 } */
 
+/* Signup Start */
+
+#inputName {
+  margin-top: 55px;
+  margin-bottom: 5px;
+  border-bottom-right-radius: 1;
+  border-bottom-left-radius: 1;
+  border-top-left-radius: 1;
+  border-top-right-radius: 1;
+}
+
+#inputUsername {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-bottom-right-radius: 1;
+  border-bottom-left-radius: 1;
+  border-top-left-radius: 1;
+  border-top-right-radius: 1;
+}
+
+#inputEmail {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-bottom-right-radius: 1;
+  border-bottom-left-radius: 1;
+  border-top-left-radius: 1;
+  border-top-right-radius: 1;
+}
+
+#inputPassword {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-bottom-right-radius: 1;
+  border-bottom-left-radius: 1;
+  border-top-left-radius: 1;
+  border-top-right-radius: 1;
+}
+
+#confirmPassword {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-bottom-right-radius: 1;
+  border-bottom-left-radius: 1;
+  border-top-left-radius: 1;
+  border-top-right-radius: 1;
+}
+
+#inputImage {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-bottom-right-radius: 1;
+  border-bottom-left-radius: 1;
+  border-top-left-radius: 1;
+  border-top-right-radius: 1;
+}
+
+
+/* SIGNUP END */
+
+
 /* SIGNIN */
 .form-signin {
   width: 370px;
@@ -93,12 +153,11 @@ ul.error li {
 
 .header{
 	padding: 565px 0 60px;
-	background: url(https://images.wallpaperscraft.com/image/volkswagen_golf_mk1_yellow_front_view_107928_1920x1080.jpg) no-repeat center center fixed;
+	background: url(https://images.wallpaperscraft.com/image/volkswagen_golf_mk1_yellow_front_view_107928_1920x1080.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: auto;
 }
 
 .header .btn {
