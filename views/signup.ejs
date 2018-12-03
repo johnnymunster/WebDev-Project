@@ -21,4 +21,12 @@
     </div>
     <!-- Sign up form finish -->
 
+<% if (messages) { %>
+
+<script language="javascript">
+  alert("<%= messages %>");
+</script>
+
+<% } %>
+
 <% include ../views/footer %>
