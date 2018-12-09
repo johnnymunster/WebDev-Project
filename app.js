@@ -18,6 +18,7 @@ var mongo = require('mongodb');
 var mongoose = require('mongoose');
 var db = mongoose.connection;
 
+
 // const PORT = 3000; // you can change this if this port number is not available
 
 const port = process.env.PORT || 3000;
@@ -115,17 +116,16 @@ app.use(function(err, req, res, next){
   });
 });
 
-// //connect to database
-// mongoose.connect('mongodb://localhost:27017/auth_tuts', { //replace this with you
-//   // useMongoClient: true
-// }, (err, db) => {
-//   if (err) {
-//     console.log("Couldn't connect to database");
-//   } else {
-//     console.log(`Connected To Database`);
-//   }
-// }
-// );
+//connect to database
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/project', {
+}, (err, db) => {
+  if (err) {
+    console.log("Couldn't connect to database");
+  } else {
+    console.log(`Connected To Database`);
+  }
+}
+);
 
 app.listen(port, () =>{
   console.log(`Server is up on port ${port}`);

@@ -32,7 +32,7 @@
     "express-session": "^1.15.6",
     "express-validator": "*",
     "jsonwebtoken": "^8.4.0",
-    "mongodb": "*",
+    "mongodb": "^3.1.10",
     "mongoose": "^5.3.12",
     "morgan": "*",
     "multer": "*",
