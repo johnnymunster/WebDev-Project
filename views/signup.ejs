@@ -15,18 +15,13 @@
       <label for="inputImage" class="sr-only">Password</label>
       <input type="password" id="confirmPassword" class="form-control" placeholder="Confirm Password" name="password2" required>
       <label for="inputImage" class="sr-only">Password</label>
+      <p>Upload Licence</p>
       <input type="file" id="inputImage" class="form-control" name="profileimage">
       <button class="btn btn-lg btn-primary btn-block" type="submit" name="submit", value="signup">Sign up</button>
     </form>
     </div>
     <!-- Sign up form finish -->
 
-<% if (messages) { %>
 
-<script language="javascript">
-  alert("<%= messages %>");
-</script>
-
-<% } %>
 
 <% include ../views/footer %>

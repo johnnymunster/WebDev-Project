@@ -75,7 +75,7 @@ html, body {
   border-radius: 9px;
   font-family: 'Oswald', sans-serif;
   color: #fff;
-  font-size: 130%;
+  font-size: 110%;
   padding: 10px 20px;
   border: solid #036A81 3px;
   text-transform: uppercase;
@@ -113,12 +113,12 @@ html, body {
 .cars {
   background-color: #f2f2f2;
   padding: 15px 15px;
-  text-align: center;
-  
+  text-align: center; 
 }
 
 .thumbnail img {
   width: 100%;
+  height: 250px;
 }
 
 .thumbnail {

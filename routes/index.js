@@ -7,6 +7,12 @@ router.get('/', function(req, res, next){
     res.render('index', { title: 'Express' });
 });
 
+router.get('/car', function (req, res, next) {
+    res.render('car', {
+        title: 'car'
+    });
+});
+
 
 //hiding a route
 // router.get('/', ensureAuthenticated, function (req, res, next) {
